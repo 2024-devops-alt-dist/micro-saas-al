@@ -28,11 +28,11 @@ Le carnet de terrain numérique pour explorateurs mycologiques.
 
 ### Palette de couleurs
 
-![Palette de couleurs](img/colors-1.png)
+![Palette de couleurs](img/palette.png)
 
 <br>
 
-![Palette de couleurs](img/morille.jpeg) ![Palette de couleurs](img/champignons.jpeg) ![Palette de couleurs](img/champignons-2.jpeg)
+![Photo](img/morille.jpeg) ![Photo](img/champignons.jpeg) ![Photo](img/champignons-2.jpeg)
 
 ---
 

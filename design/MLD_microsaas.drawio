@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.2">
+  <diagram name="Page-1" id="HMBE2WsbkV2b-rAnS4Xg">
+    <mxGraphModel dx="815" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-1" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="665" width="160" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-2" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;#id_user&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;username&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;email&amp;nbsp;&lt;/div&gt;&lt;div&gt;password&amp;nbsp;&lt;/div&gt;&lt;div&gt;firstname&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;lastname&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;created at&amp;nbsp;&lt;/div&gt;&lt;div&gt;updated at&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AMPSsoV-TrORgB3-gjKn-1">
+          <mxGeometry y="50" width="160" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-3" value="Observation" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="600" width="160" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-4" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;#id_observation&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;title&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;datetime&amp;nbsp;&lt;/div&gt;&lt;div&gt;latitude&lt;/div&gt;&lt;div&gt;longitude&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;weather&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;substrate&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;quantity&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;notes&amp;nbsp;&lt;/div&gt;&lt;div&gt;is public&amp;nbsp;&lt;/div&gt;&lt;div&gt;confidence level&amp;nbsp;&lt;/div&gt;&lt;div&gt;created at&amp;nbsp;&lt;/div&gt;&lt;div&gt;updated at&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;#id_user&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;#id_mushroom&lt;/u&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AMPSsoV-TrORgB3-gjKn-3">
+          <mxGeometry y="50" width="160" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-5" value="Mushroom" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="615" width="160" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-6" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;#id_mushroom&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;common_name&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;genus&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;species&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;family&amp;nbsp;&lt;/div&gt;&lt;div&gt;edibility&amp;nbsp;&lt;/div&gt;&lt;div&gt;habitat&amp;nbsp;&lt;/div&gt;&lt;div&gt;description&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AMPSsoV-TrORgB3-gjKn-5">
+          <mxGeometry y="50" width="160" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-7" value="Photo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1060" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-8" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;#id_photo&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;filename&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;url&amp;nbsp;&lt;/div&gt;&lt;div&gt;mime type&amp;nbsp;&lt;/div&gt;&lt;div&gt;size bythes&amp;nbsp;&lt;/div&gt;&lt;div&gt;width&amp;nbsp;&lt;/div&gt;&lt;div&gt;height&amp;nbsp;&lt;/div&gt;&lt;div&gt;created at&amp;nbsp;&lt;/div&gt;&lt;div&gt;updated at&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#id_observation&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;#id_mushroom&lt;/u&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AMPSsoV-TrORgB3-gjKn-7">
+          <mxGeometry y="50" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-9" value="Comment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="300" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-10" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;u&gt;#id_comment&lt;/u&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;content&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;created at&lt;/div&gt;&lt;div&gt;updated at&lt;/div&gt;&lt;div&gt;deleted at&lt;/div&gt;&lt;div&gt;is edited&lt;/div&gt;&lt;div&gt;status&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#id_user&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;#id_observation&lt;/u&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="AMPSsoV-TrORgB3-gjKn-9">
+          <mxGeometry y="50" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="AMPSsoV-TrORgB3-gjKn-10" target="AMPSsoV-TrORgB3-gjKn-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="850" y="584" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AMPSsoV-TrORgB3-gjKn-10" target="AMPSsoV-TrORgB3-gjKn-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="AMPSsoV-TrORgB3-gjKn-2" target="AMPSsoV-TrORgB3-gjKn-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="767.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AMPSsoV-TrORgB3-gjKn-4" target="AMPSsoV-TrORgB3-gjKn-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="AMPSsoV-TrORgB3-gjKn-8" target="AMPSsoV-TrORgB3-gjKn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AMPSsoV-TrORgB3-gjKn-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="AMPSsoV-TrORgB3-gjKn-4" target="AMPSsoV-TrORgB3-gjKn-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

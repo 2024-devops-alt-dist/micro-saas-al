@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.0.1">
+  <diagram name="Page-1" id="3XLUSqUxntKumlYxxhAI">
+    <mxGraphModel dx="1426" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-1" value="User" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="540" y="715" width="160" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-2" value="&lt;div&gt;&lt;u&gt;PK user_id INT&lt;/u&gt;&lt;/div&gt;username VARCHAR(255)&lt;br&gt;&lt;div&gt;email&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;password&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;firstname&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;lastname&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;created at TIMESTAMP&lt;/div&gt;&lt;div&gt;updated at&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TIMESTAMP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="DGyajwMHkgL5YKFVIt_0-1" vertex="1">
+          <mxGeometry y="50" width="160" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-3" value="Observation" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="650" width="160" height="325" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-4" value="&lt;div&gt;&lt;u&gt;PK observation_id INT&lt;/u&gt;&lt;/div&gt;title VARCHAR(255)&lt;div&gt;datetime TIMESTAMP&lt;/div&gt;&lt;div&gt;latitude&amp;nbsp;DECIMAL(9,6)&lt;/div&gt;&lt;div&gt;longitude&amp;nbsp;DECIMAL(9,6)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;weather TEXT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;substrate VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;quantity INT&lt;/span&gt;&lt;/div&gt;&lt;div&gt;notes TEXT&lt;/div&gt;&lt;div&gt;is public BOOLEAN&lt;/div&gt;&lt;div&gt;confidence level ENUM(&#39;certain&#39;,&#39;probable&#39;,&lt;/div&gt;&lt;div&gt;&#39;possible&#39;,&#39;unknown&#39;)&lt;/div&gt;&lt;div&gt;created at&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TIMESTAMP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;updated at&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TIMESTAMP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;FK&amp;nbsp;user_id INT&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;FK&amp;nbsp;mushroom_id INT&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="DGyajwMHkgL5YKFVIt_0-3" vertex="1">
+          <mxGeometry y="50" width="160" height="275" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-5" value="Mushroom" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="665" width="160" height="295" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-6" value="&lt;div&gt;&lt;u&gt;PK mushroom_id INT&lt;/u&gt;&lt;/div&gt;common_name VARCHAR(255)&lt;div&gt;genus&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;species&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;family&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;edibility ENUM(&#39;poisonous&#39;, &#39;edible&#39;)&lt;/div&gt;&lt;div&gt;habitat&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;description TEXT&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="DGyajwMHkgL5YKFVIt_0-5" vertex="1">
+          <mxGeometry y="50" width="160" height="245" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-7" value="Photo" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="1110" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-8" value="&lt;div&gt;&lt;u&gt;PK photo_id INT&lt;/u&gt;&lt;/div&gt;filename VARCHAR(255)&lt;div&gt;url&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(1024)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;mime type&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;VARCHAR(255)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;size bythes BIGINT&lt;/div&gt;&lt;div&gt;width INT&lt;/div&gt;&lt;div&gt;height INT&lt;/div&gt;&lt;div&gt;created at TIMESTAMP&lt;/div&gt;&lt;div&gt;updated at&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TIMESTAMP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;FK observation_id INT&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u&gt;FK mushroom_id INT&lt;/u&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="DGyajwMHkgL5YKFVIt_0-7" vertex="1">
+          <mxGeometry y="50" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-9" value="Comment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="920" y="350" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-10" value="&lt;div&gt;&lt;u&gt;PK comment_id INT&lt;/u&gt;&lt;/div&gt;&lt;div&gt;content VARCHAR(255)&lt;/div&gt;&lt;div&gt;created at TIMESTAMP&lt;/div&gt;&lt;div&gt;updated at&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TIMESTAMP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;deleted at&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TIMESTAMP&lt;/span&gt;&lt;/div&gt;&lt;div&gt;is edited BOOLEAN&lt;/div&gt;&lt;div&gt;status ENUM(&#39;draft&#39;,&#39;submitted&#39;,&lt;/div&gt;&lt;div&gt;&#39;validated&#39;,&#39;rejected&#39;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;u style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FK user_id INT&lt;/u&gt;&lt;/div&gt;&lt;div&gt;&lt;u style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;FK observation_id INT&lt;/u&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" parent="DGyajwMHkgL5YKFVIt_0-9" vertex="1">
+          <mxGeometry y="50" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="DGyajwMHkgL5YKFVIt_0-10" target="DGyajwMHkgL5YKFVIt_0-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="634" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="DGyajwMHkgL5YKFVIt_0-10" target="DGyajwMHkgL5YKFVIt_0-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="DGyajwMHkgL5YKFVIt_0-2" target="DGyajwMHkgL5YKFVIt_0-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="817.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="DGyajwMHkgL5YKFVIt_0-4" target="DGyajwMHkgL5YKFVIt_0-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="DGyajwMHkgL5YKFVIt_0-8" target="DGyajwMHkgL5YKFVIt_0-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DGyajwMHkgL5YKFVIt_0-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="DGyajwMHkgL5YKFVIt_0-4" target="DGyajwMHkgL5YKFVIt_0-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
